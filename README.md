@@ -66,7 +66,7 @@ Books.attachSchema(new SimpleSchema({
     {{/autoForm}}
 </template>
 ```
-or 自定义field颜色样式
+or 自定义label 和 field颜色样式
 ```meteor
 <template name="InsertBook5">
     {{#autoForm id="insertBookForm5" type='insert' collection="Books"}}
@@ -122,6 +122,20 @@ or 自定义样式 （修改cost价格表样式为例）
     {{/autoForm}}
 </template>
 ```
+
+***
+####afQuickField Examples
+```meteor
+{{> afQuickField name='firstField' autofocus=''}}
+{{> afQuickField name='weirdColors' style="color: orange" label-style="color: green"}}
+{{> afQuickField name="longString" rows="5"}}
+{{> afQuickField name="radioBoolean" type="boolean-radios" trueLabel="Yes" falseLabel="No"}}
+{{> afQuickField name="selectBoolean" type="boolean-select" trueLabel="Yes" falseLabel="No"}}
+{{> afQuickField name="optionsButNoSelect" options=numSelectOptions noselect="true"}}
+{{> afQuickField name="firstOptionSelect" firstOption="(Select Something)" options=numSelectOptions}}
+{{> afQuickField name="decimal" step="0.01"}}
+```
+
 
 *** 
 ### 修改 字段验证不合法提示 参考github地址
