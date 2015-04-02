@@ -1,5 +1,7 @@
 #使用方法
 
+[demo](http://autoform-ws.meteor.com)
+
 ##添加package
 ```
 meteor add aldeed:autoform
