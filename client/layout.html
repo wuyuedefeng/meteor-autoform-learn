@@ -1,0 +1,27 @@
+<template name="MasterLayout">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+                    <span class="sr-only">autoform</span>
+                    <span class="icon-bar">
+                    </span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><i class="fa fa-medium"></i> autoform</a>
+
+            </div>
+            <div class="collapse navbar-collapse" id="navigationbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><div class="nav navbar-nav navbar-right"> </div></li>
+                    <li><a href="{{pathFor 'insertBook'}}">books</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        {{> yield}}
+    </div>
+
+</template>
