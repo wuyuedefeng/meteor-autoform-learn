@@ -55,6 +55,17 @@ Books.attachSchema(new SimpleSchema({
   {{> quickForm collection="Books" id="insertBookForm" type="insert"}}
 </template>
 ```
+或
+```
+<template name="InsertBook4">
+    {{#autoForm id="insertBookForm4" type='insert' collection="Books"}}
+        {{> afQuickFields}}
+        <div>
+            <button type="submit">提交</button>
+        </div>
+    {{/autoForm}}
+</template>
+```
 or 自定义表单字段顺序
 ```
 <template name="insertBookForm">

@@ -2,6 +2,15 @@
     {{>quickForm collection="Books" id='insertBookForm1' type='insert'}}
 </template>
 
+<template name="InsertBook4">
+    {{#autoForm id="insertBookForm4" type='insert' collection="Books"}}
+        {{> afQuickFields}}
+        <div>
+            <button type="submit">提交</button>
+        </div>
+    {{/autoForm}}
+</template>
+
 <template name="InsertBook2">
     {{#autoForm collection="Books" id="insertBookForm2" type="insert"}}
         <fieldset>
