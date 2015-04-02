@@ -11,6 +11,17 @@
     {{/autoForm}}
 </template>
 
+<template name="InsertBook5">
+    {{#autoForm id="insertBookForm5" type='insert' collection="Books"}}
+        {{#each afFieldNames}}
+            {{> afQuickField name=this.name style="color: orange" label-style="color: green"}}
+        {{/each}}
+        <div>
+            <button type="submit">提交</button>
+        </div>
+    {{/autoForm}}
+</template>
+
 <template name="InsertBook2">
     {{#autoForm collection="Books" id="insertBookForm2" type="insert"}}
         <fieldset>

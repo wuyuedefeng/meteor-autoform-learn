@@ -5,14 +5,14 @@
 [官方demo参考](http://autoform.meteor.com/)
 
 ##添加package
-```
+```meteor
 meteor add aldeed:autoform
 meteor add aldeed:collection2
 ```
 
 ##定义schema
 
-```books.js
+```meteor
 Books = new Mongo.Collection("books");
 Books.attachSchema(new SimpleSchema({
   title: {
@@ -50,13 +50,13 @@ Books.attachSchema(new SimpleSchema({
 
 ###insertBook
 
-```
+```meteor
 <template name="insertBookForm">
   {{> quickForm collection="Books" id="insertBookForm" type="insert"}}
 </template>
 ```
-或
-```
+或 自定义提交按钮
+```meteor
 <template name="InsertBook4">
     {{#autoForm id="insertBookForm4" type='insert' collection="Books"}}
         {{> afQuickFields}}
@@ -66,8 +66,21 @@ Books.attachSchema(new SimpleSchema({
     {{/autoForm}}
 </template>
 ```
-or 自定义表单字段顺序
+or 自定义field颜色样式
+```meteor
+<template name="InsertBook5">
+    {{#autoForm id="insertBookForm5" type='insert' collection="Books"}}
+        {{#each afFieldNames}}
+            {{> afQuickField name=this.name style="color: orange" label-style="color: green"}}
+        {{/each}}
+        <div>
+            <button type="submit">提交</button>
+        </div>
+    {{/autoForm}}
+</template>
 ```
+or 自定义表单字段顺序
+```meteor
 <template name="insertBookForm">
   {{#autoForm collection="Books" id="insertBookForm" type="insert"}}
     <fieldset>
@@ -83,8 +96,8 @@ or 自定义表单字段顺序
   {{/autoForm}}
 </template>
 ```
-or 自定义cost价格表样式
-```
+or 自定义样式 （修改cost价格表样式为例）
+```meteor
 <template name="InsertBook3">
     {{#autoForm collection="Books" id="insertBookForm" type="insert"}}
         <fieldset>
@@ -111,7 +124,7 @@ or 自定义cost价格表样式
 ```
 
 *** 
-### 修改不合法提示github地址
+### 修改 字段验证不合法提示 参考github地址
 `github: https://github.com/aldeed/meteor-simple-schema#customizing-validation-messages`
 
 
