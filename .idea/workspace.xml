@@ -27,8 +27,8 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="480">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="insert_book.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/template/autoform/book/insert_book.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-              <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/lib/routes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="21" />
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -67,7 +67,7 @@
       <file leaf-file-name="books.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/collection/books.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="530">
+            <state vertical-scroll-proportion="0.5681818" vertical-offset="0" max-vertical-offset="528">
               <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
@@ -106,10 +106,10 @@
         <option value="$PROJECT_DIR$/client/layout.css" />
         <option value="$PROJECT_DIR$/client/template/autoform/book/books.html" />
         <option value="$PROJECT_DIR$/client/template/autoform/book/insert_books.html" />
-        <option value="$PROJECT_DIR$/client/template/autoform/book/insert_book.html" />
-        <option value="$PROJECT_DIR$/lib/routes.js" />
-        <option value="$PROJECT_DIR$/client/layout.html" />
         <option value="$PROJECT_DIR$/lib/collection/books.js" />
+        <option value="$PROJECT_DIR$/lib/routes.js" />
+        <option value="$PROJECT_DIR$/client/template/autoform/book/insert_book.html" />
+        <option value="$PROJECT_DIR$/client/layout.html" />
       </list>
     </option>
   </component>
@@ -117,8 +117,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
-    <option name="y" value="116" />
+    <option name="x" value="322" />
+    <option name="y" value="51" />
     <option name="width" value="1072" />
     <option name="height" value="648" />
   </component>
@@ -321,7 +321,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="116" width="1072" height="648" extended-state="0" />
+    <frame x="322" y="51" width="1072" height="648" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -365,16 +365,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/template/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
@@ -386,7 +376,23 @@
     <entry file="file://$PROJECT_DIR$/lib/routes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="21" />
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/template/autoform/book/insert_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="390">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -399,25 +405,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/layout.html">
+    <entry file="file://$PROJECT_DIR$/client/template/home/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="480">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/template/autoform/book/insert_book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collection/books.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="530">
+        <state vertical-scroll-proportion="0.5681818" vertical-offset="0" max-vertical-offset="528">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding />
         </state>

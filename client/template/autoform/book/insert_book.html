@@ -1,3 +1,20 @@
-<template name="InsertBook">
-    {{>quickForm collection="Books" id='insertBookForm' type='insert'}}
+<template name="InsertBook1">
+    {{>quickForm collection="Books" id='insertBookForm1' type='insert'}}
 </template>
+
+<template name="InsertBook2">
+    {{#autoForm collection="Books" id="insertBookForm2" type="insert"}}
+        <fieldset>
+            <legend>Add a Book</legend>
+            {{> afQuickField name='title'}}
+            {{> afQuickField name='author'}}
+            {{> afQuickField name='summary' rows=6}}
+            {{> afQuickField name='copies'}}
+            {{> afQuickField name='lastCheckedOut'}}
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Insert</button>
+    {{/autoForm}}
+</template>
+
+
+
