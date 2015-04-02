@@ -35,7 +35,12 @@ Books.attachSchema(new SimpleSchema({
     label: "Brief summary",
     optional: true,
     max: 1000
-  }
+  },
+   cost: {
+       type: Number,
+       label: "价格",
+       min: 1
+   }
 }));
 ```
 
@@ -46,7 +51,7 @@ Books.attachSchema(new SimpleSchema({
   {{> quickForm collection="Books" id="insertBookForm" type="insert"}}
 </template>
 ```
-or
+or 自定义表单字段顺序
 ```
 <template name="insertBookForm">
   {{#autoForm collection="Books" id="insertBookForm" type="insert"}}
@@ -55,11 +60,38 @@ or
       {{> afQuickField name='title'}}
       {{> afQuickField name='author'}}
       {{> afQuickField name='summary' rows=6}}
+      {{> afQuickField name='cost'}}
       {{> afQuickField name='copies'}}
       {{> afQuickField name='lastCheckedOut'}}
     </fieldset>
     <button type="submit" class="btn btn-primary">Insert</button>
   {{/autoForm}}
+</template>
+```
+or 自定义cost价格表样式
+```
+<template name="InsertBook3">
+    {{#autoForm collection="Books" id="insertBookForm" type="insert"}}
+        <fieldset>
+            <legend>添加一本书</legend>
+            {{> afQuickField name='title'}}
+            {{> afQuickField name='author'}}
+            {{> afQuickField name='summary' rows=6}}
+            {{> afQuickField name='copies'}}
+            {{> afQuickField name='lastCheckedOut'}}
+            <div class="form-group{{#if afFieldIsInvalid name='cost'}} has-error{{/if}}">
+                <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                    {{> afFieldInput name='cost'}}
+                    <span class="input-group-addon">/each</span>
+                </div>
+                {{#if afFieldIsInvalid name='cost'}}
+                    <span class="help-block">{{afFieldMessage name='cost'}}</span>
+                {{/if}}
+            </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Insert</button>
+    {{/autoForm}}
 </template>
 ```
 
