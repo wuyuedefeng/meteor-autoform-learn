@@ -2,6 +2,8 @@
 
 [demo](http://autoform-ws.meteor.com)
 
+[官方demo参考](http://autoform.meteor.com/)
+
 ##添加package
 ```
 meteor add aldeed:autoform
@@ -98,6 +100,7 @@ or 自定义cost价格表样式
 ```
 
 *** 
-
+### 修改不合法提示github地址
+`github: https://github.com/aldeed/meteor-simple-schema#customizing-validation-messages`
 
 
