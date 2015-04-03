@@ -264,4 +264,6 @@ AutoForm.hooks({
 ### 修改 字段验证不合法提示 参考github地址
 `github: https://github.com/aldeed/meteor-simple-schema#customizing-validation-messages`
 
+### 日期格式 自定义参考
+`http://momentjs.com/`
 
