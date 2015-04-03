@@ -14,7 +14,7 @@
 <template name="InsertBook5">
     {{#autoForm id="insertBookForm5" type='insert' collection="Books"}}
         {{#each afFieldNames}}
-            {{> afQuickField name=this.name style="color: orange" label-style="color: green"}}
+            {{> afQuickField name=this.name style="color: orange" label-style="color: green" options=afOptionsFromSchema}}
         {{/each}}
         <div>
             <button type="submit">提交</button>
